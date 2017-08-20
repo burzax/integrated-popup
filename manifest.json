@@ -1,0 +1,27 @@
+{
+    "manifest_version": 2,
+    "name": "Turtles-popup",
+    "version": "1.0",
+    "description": "Popup with several funcionalities: colorPicker, colorPalette, URL-shortener, quoteGrabber, options",
+    "icons": {
+        "128": "128.png",
+        "48": "48.png",
+        "16": "16.png"
+    },
+    "browser_action": {
+        "default_icon": "16.png",
+        "default_popup": "popup.html"
+    },
+    "permissions": [
+   "tabs",
+   "<all_urls>"
+ ],
+ "content_scripts": [
+   {
+     "matches": ["<all_urls>"],
+     "js": ["selection.js"],
+     "run_at": "document_start",
+     "all_frames": true
+   }
+ ]
+}
