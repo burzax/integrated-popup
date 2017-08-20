@@ -1,0 +1,19 @@
+{
+  "name": "popup-with-menu",
+  "version": "1.0.0",
+  "description": "Chrome extension with integrated functionalities in single popup. ColorPicker, ColorPalette, QuoteGrabber, URL-shortener",
+  "main": "jquery-3.2.1.min.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/burzax/integrated-popup.git"
+  },
+  "author": "brx",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/burzax/integrated-popup/issues"
+  },
+  "homepage": "https://github.com/burzax/integrated-popup#readme"
+}
