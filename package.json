@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/burzax/integrated-popup/issues"
   },
-  "homepage": "https://github.com/burzax/integrated-popup#readme"
+  "homepage": "https://github.com/burzax/integrated-popup#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1"
+  }
 }
