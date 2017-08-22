@@ -6,7 +6,7 @@ function pasteSelection() {
   function(tab) {
     chrome.tabs.sendMessage(tab[0].id, {method: "wysylamZapytanie"}, 
     function(response){
-      console.log('dostaje odpowiedz');
+      console.log('Received response');
       console.log(response);
       var text = document.getElementById('text'); 
       text.innerHTML = response.data;

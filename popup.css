@@ -32,9 +32,7 @@ body {
     .sidePanel:hover {
       background: #333333;
     }
-    #quoteGrabber:hover + #qGTextArea {
-      display: block;
-    }
+    
     
 /* quoteGrabber styling */
     #qGTextArea {
