@@ -9,8 +9,9 @@ function pasteSelection() {
       console.log('Received response');
       console.log(response);
       var text = document.getElementById('text'); 
-      text.innerHTML = response.data;
       localStorage.setItem('link', response.data);
+      text.innerHTML = localStorage.getItem('link');
+      
     });
   });
 }
