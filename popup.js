@@ -10,6 +10,7 @@ function pasteSelection() {
       console.log(response);
       var text = document.getElementById('text'); 
       text.innerHTML = response.data;
+      localStorage.setItem('link', response.data);
     });
   });
 }
